@@ -1,4 +1,4 @@
-describe('Keystore Wallet Access int main port loock', () => {
+describe('Keystore Wallet Access', () => {
     it('can access', () => {
         cy.visit('/access/keystore')
         let fixture = 'keystore_v5.json'
